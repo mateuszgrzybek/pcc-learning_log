@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%p(*!d#pbujnxhln#qrwcckvno+a4utqax2@bw2u$_7ns6^e*_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dziennik-nauki.herokuapp.com']
 
 # Application definition
 
